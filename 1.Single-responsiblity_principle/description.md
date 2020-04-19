@@ -15,7 +15,7 @@ A class should have one and only one reason to change, meaning that a class shou
 
 **Например, рассмотрим этот код:**
 
-```typescriptcript
+```typescript
 class Animal {
   constructor(name: string) {}
   getAnimalName() {}
@@ -40,7 +40,7 @@ class Animal {
 класс, единственной задачей которого является работа с хранилищем, в частности — сохранение в нём объектов класса 
 *`Animal`*:
 
-```typescriptcript
+```typescript
 class Animal {
   constructor(name: string) {}
   getAnimalName() {}

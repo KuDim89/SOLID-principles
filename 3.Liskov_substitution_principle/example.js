@@ -74,14 +74,14 @@ class Render {
     }
 
     renderComponent() {
-        this.component.render();
+        console.log(this.component.render());;
     }
 }
 
-const header = new Render(new HederComponent().render());
-const footer = new Render(new FooterComponent().render());
+const header = new Render(new HederComponent());
+const footer = new Render(new FooterComponent());
 
-console.log(header.component);
-console.log(footer.component);
+header.renderComponent();
+footer.renderComponent();
 
 
